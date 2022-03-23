@@ -1,0 +1,18 @@
+---
+title: "Gray_Review.Rmd"
+output: html_document
+---
+
+---
+title: "Gray_Review.Rmd"
+output: html_document
+---
+#I got an error on line 47 with "dim(genotypes)" command. It didn't recognize "genotypes"
+# Good job with merging SNPs and Fang files for maize ended up with the correct file for sorting by chromosome and position. 
+# For the most part the loop worked in both maize and teosinte to order based on position. However, I did notice a few position values which were out of order. I'm not sure why. An alternate command you could run is the "order" command to sort by chromosome and position. 
+#Overall, the loop you run for both teosinte and maize will work for seperating the files. I would suggest just for clarity labeling them "Maize_Increase_1" rather than by "A" or "B"
+#When I run lines for visulization of SNP distribution and SNP Diversity I don't get any plot to view. However, I also don't get an error message. 
+#When I run lines for visulization of missing SNP and Heterozygosity I don't get any plot to view. However, I also don't get an error message, so I might be missing where it is sending the plot 
+
+
+#Overall, good job! I would just check to make sure it is sorting the file based on position correctly. I would also double check the visulization portion to ensure a plot is printed in the viewer of RStudio. 
